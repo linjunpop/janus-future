@@ -1,0 +1,59 @@
+" Color
+set t_Co=256
+set background=dark
+colorscheme hybrid
+
+" NERDTree
+let NERDTreeIgnore += ['node_modules$', '\.git$', 'covreage$', 'tmp$']
+
+" ctrl-p
+let g:ctrlp_custom_ignore = {
+  \ 'dir':  '\.git$\|tmp$\|bin$\|spec/fixtures$\|public/system$\|public/uploads$\|log$\|vendor/bundle$',
+  \ 'file': '\$\|\.so$',
+  \ }
+
+" File
+set undofile
+set undolevels=1000
+set undodir=~/.vimundo,.
+
+" autocmd
+"autocmd VimEnter * execute 'Rvm use'
+
+" external apps
+nnoremap <leader>m :silent !open -a Marked.app '%:p'<cr>
+
+" auto remove trailing space
+autocmd FileType ruby,scss,css,slim,eruby,coffee,javascript,html autocmd BufWritePre <buffer> :%s/\s\+$//e
+"set listchars=tab:▸–,eol:¶,trail:❖,nbsp:¬
+
+" tagbar
+let g:tagbar_ctags_bin='/usr/local/bin/ctags'  " Proper Ctags locations
+let g:tagbar_width=26                          " Default is 40, seems too wide
+nnoremap <leader>y :TagbarToggle<cr>
+
+" 80 column
+:set textwidth=80
+:set colorcolumn=+1
+
+" Chinese IM fix
+" http://www.v2ex.com/t/40375
+" se noimd
+" se ims=1
+
+" rails.vim
+let g:rails_ctags_arguments='--extra=+f --exclude=.git --exclude=log --exclude=tmp --exclude=public --exclude=spec/fixtures --exclude=db'
+
+" key bindings
+nnoremap ; :
+nnoremap j gj
+nnoremap k gk
+cmap w!! w !sudo tee % >/dev/null
+
+" disable old-school backup
+set nobackup
+set noswapfile
+
+" auto read file as soon as it changes on disk.
+set autoread
+

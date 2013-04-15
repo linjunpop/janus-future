@@ -1,0 +1,6 @@
+"set guifont=Monaco:h12
+set guifont=Source_Code_Pro_Light:h14
+
+" hide macvim toolbar
+set guioptions=egmt
+
