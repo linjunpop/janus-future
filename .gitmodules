@@ -1,3 +1,27 @@
 [submodule "dot-janus/apidock.vim"]
 	path = dot-janus/apidock.vim
 	url = https://github.com/linjunpop/apidock.vim.git
+[submodule "dot-janus/vim-bundler"]
+	path = dot-janus/vim-bundler
+	url = https://github.com/tpope/vim-bundler.git
+[submodule "dot-janus/vim-color-picker-osx"]
+	path = dot-janus/vim-color-picker-osx
+	url = https://github.com/marzocchi/vim-color-picker-osx.git
+[submodule "dot-janus/vim-hybrid"]
+	path = dot-janus/vim-hybrid
+	url = https://github.com/w0ng/vim-hybrid.git
+[submodule "dot-janus/vim-multiple-cursors"]
+	path = dot-janus/vim-multiple-cursors
+	url = https://github.com/terryma/vim-multiple-cursors.git
+[submodule "dot-janus/vim-rake"]
+	path = dot-janus/vim-rake
+	url = https://github.com/tpope/vim-rake.git
+[submodule "dot-janus/vim-slim"]
+	path = dot-janus/vim-slim
+	url = https://github.com/slim-template/vim-slim.git
+[submodule "dot-janus/vim-rubyhash"]
+	path = dot-janus/vim-rubyhash
+	url = https://github.com/rorymckinley/vim-rubyhash.git
+[submodule "dot-janus/vim-ruby-refactoring"]
+	path = dot-janus/vim-ruby-refactoring
+	url = https://github.com/ecomba/vim-ruby-refactoring.git
