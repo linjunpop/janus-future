@@ -9,4 +9,4 @@ function link_files {
 }
 
 link_files
-
+`git submodule update`
