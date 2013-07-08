@@ -25,3 +25,6 @@
 [submodule "dot-janus/vim-ruby-refactoring"]
 	path = dot-janus/vim-ruby-refactoring
 	url = https://github.com/ecomba/vim-ruby-refactoring.git
+[submodule "dot-janus/vim-airline"]
+	path = dot-janus/vim-airline
+	url = https://github.com/bling/vim-airline.git
